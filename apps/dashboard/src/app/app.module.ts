@@ -7,6 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StoreModule } from '@ngrx/store';
 import { CoreDataModule, coreDataRoutes } from '@src/core-data';
+import { CoreStateModule, coreStateRoutes } from '@src/core-state';
+import { MaterialModule, materialRoutes } from '@src/material';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -16,6 +18,8 @@ import { CoreDataModule, coreDataRoutes } from '@src/core-data';
     BrowserAnimationsModule,
     StoreModule.forRoot({}, {}),
     CoreDataModule,
+    CoreStateModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
