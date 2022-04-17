@@ -10,9 +10,16 @@ import { CoreDataModule, coreDataRoutes } from '@src/core-data';
 import { CoreStateModule, coreStateRoutes } from '@src/core-state';
 import { MaterialModule, materialRoutes } from '@src/material';
 import { RoutingModule } from './routing.module';
+import { WidgetsComponent } from './widgets/widgets.component';
+import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [
+    AppComponent,
+    NxWelcomeComponent,
+    WidgetsComponent,
+    WidgetsListComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
