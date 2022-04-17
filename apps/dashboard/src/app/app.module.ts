@@ -9,6 +9,7 @@ import { StoreModule } from '@ngrx/store';
 import { CoreDataModule, coreDataRoutes } from '@src/core-data';
 import { CoreStateModule, coreStateRoutes } from '@src/core-state';
 import { MaterialModule, materialRoutes } from '@src/material';
+import { RoutingModule } from './routing.module';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -20,6 +21,7 @@ import { MaterialModule, materialRoutes } from '@src/material';
     CoreDataModule,
     CoreStateModule,
     MaterialModule,
+    RoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
