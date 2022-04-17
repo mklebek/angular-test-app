@@ -12,6 +12,7 @@ import { MaterialModule, materialRoutes } from '@src/material';
 import { RoutingModule } from './routing.module';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
+import { WidgetsDetailsComponent } from './widgets/widgets-details/widgets-details.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.compon
     NxWelcomeComponent,
     WidgetsComponent,
     WidgetsListComponent,
+    WidgetsDetailsComponent,
   ],
   imports: [
     BrowserModule,
