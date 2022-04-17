@@ -12,12 +12,6 @@ import { RoutingModule } from './routing.module';
 import { WidgetDetailsComponent } from './widgets/widget-details/widget-details.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 import { WidgetsComponent } from './widgets/widgets.component';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
-import { MatCardModule } from '@angular/material/card';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -36,12 +30,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     HttpClientModule,
     MaterialModule,
     RoutingModule,
-    MatIconModule,
-    MatListModule,
-    MatCardModule,
-    MatFormFieldModule,
-    MatSidenavModule,
-    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

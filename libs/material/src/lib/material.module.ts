@@ -1,10 +1,19 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule, Route } from '@angular/router';
-
-export const materialRoutes: Route[] = [];
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
-  imports: [CommonModule, RouterModule],
+  exports: [
+    MatIconModule,
+    MatListModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatSidenavModule,
+    MatToolbarModule,
+  ],
 })
 export class MaterialModule {}
