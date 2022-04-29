@@ -18,7 +18,8 @@
       "@src/api-interfaces": ["libs/api-interfaces/src/index.ts"],
       "@src/core-data": ["libs/core-data/src/index.ts"],
       "@src/core-state": ["libs/core-state/src/index.ts"],
-      "@src/material": ["libs/material/src/index.ts"]
+      "@src/material": ["libs/material/src/index.ts"],
+      "@env/*": ["apps/dashboard/src/environments/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
