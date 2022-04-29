@@ -3,5 +3,10 @@
     {"id": "1", "title": "Remote Mock 1", "description": "Pending..."},
     {"id": "2", "title": "Remote Mock 2", "description": "Pending..."},
     {"id": "3", "title": "Remote Mock 3", "description": "Pending..."}
+  ],
+  "items": [
+    {"id": "1", "title": "Item Mock 1", "description": "Pending..."},
+    {"id": "2", "title": "Item Mock 2", "description": "Pending..."},
+    {"id": "3", "title": "Item Mock 3", "description": "Pending..."}
   ]
 }
